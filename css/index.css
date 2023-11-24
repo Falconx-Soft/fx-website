@@ -1,0 +1,129 @@
+body {
+    background-color: white;
+}
+
+/***************************/
+/********* NavBar **********/
+/***************************/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+    background-image: linear-gradient(to right, white, silver);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 70px;
+}
+
+.nav-logo-section>img {
+    width: 250px;
+}
+
+.nav-links-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    position: absolute;
+    width: -webkit-fill-available;
+    box-sizing: border-box !important;
+}
+
+.nav-links-section>a {
+    text-decoration: none;
+    color: #212b0f;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nav-links-section>a:hover {
+    text-decoration: underline;
+}
+
+.nav-btn {
+    background-color: black;
+    color: white;
+    width: 130px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+}
+
+/*********************************/
+/********* Main Section **********/
+/********************************/
+
+.main-section{
+    height: calc(100vh - 70px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 150px;
+}
+
+.main-section-wraper{
+    max-width: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.main-section-title{
+    font-size: 84px;
+    line-height: 1.119047619;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+}
+
+.gradient-text-shade{
+    background: linear-gradient(to right, silver -119%, black 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.main-section-content-wraper>p{
+    font-size: 20px;
+    line-height: 1.5;
+    color: #1f1f1fa6;
+    text-align: center;
+}
+
+.main-section-input-wraper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, silver -55%, black);
+    width: 550px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.main-section-input-wraper>input{
+    width: 100%;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+
+.main-section-input-wraper>input:focus {
+    outline: none;
+}
+
+.main-section-input-wraper>button{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.main-section-input-wraper>button>i{
+    font-size: 18px;
+}
